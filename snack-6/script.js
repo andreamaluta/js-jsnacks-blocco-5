@@ -19,5 +19,9 @@ const over = zucchine.filter((zucc) => {
   }
 });
 
-
+const over = zucchine.filter((zucc) => {
+  if(zucc.length > 15){
+    return true;
+  }
+});
 
